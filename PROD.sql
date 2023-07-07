@@ -5,7 +5,7 @@ order by country_code, month_sort
 
 
 
-select *,CONCAT(trial_alias_code,CAST(siteid as VARCHAR)) as site_key from opinsights_prd.t03_mdm_h01_visit_patient_status_table limit 2
+select *,CONCAT(trial_alias_code,CAST(siteid as VARCHAR)) as site_key from opinsights_prd.t03_mdm_h01_visit_patient_status_table limit 2asdasdasdadas
 
 select * from opinsights_prd.t03_mdm_h03_breakdown_patient_enrollment_list  limit 2
 
